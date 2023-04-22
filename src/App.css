@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+
+}
+
+main {
+    width: 100%;
+    padding-top: 20px;
+}
+
+main .dog{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+main .dog .imgBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .dog .imgBox .img{
+    width: 40%;
+    height: auto;
+}
+main .dog .imgBox .img img {
+    width: 100%;
+    height: auto;
+}
+
+main .dog .btnBox {
+    width: 100%;
+    text-align: right;
+}
+
+main .dog .btnBox button {
+   background-color: rgb(74, 158, 222);
+   border: none;
+   padding: 10px 20px 10px 20px;
+}
